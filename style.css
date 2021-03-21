@@ -12,41 +12,60 @@ body {
 h1 {
   font-family: 'lobster', sans-serif;
   font-size: 50px;
+  color: white;
   width: 600px;
+  height: 150px;
   background-color: #283e50;
+  text-align: center;
+  margin: 0;
 }
 
 p {
-  font-family: 'lobster', sans-serif;
+  font-family: sans-serif;
   font-size: 25px;
+  color: white;
   width: 600px;
+  height: 200px;
   background-color: #283e50;
+  text-align: center;
   display: block;
+  margin: 0;
 }
 
-.obrazek {
-  border-radius: 20px;
+img {
+  border-radius: 20px 20px 0px 0px;
+  border: 0px solid black;
   height: 486px;
   width: 600px;
-  display: block;
+  margin: 0;
+  /*display: block;*/
 }
 
-.pravidla {
+.tlacitko1 {
   background-color: #1fcca4;
   text-align: center;
   width: 600px;
   height: 70px;
   font-size: 30px;
+  font-family: sans-serif;
+  color: white;
   list-style-type: none;
   display: block;
+  margin: 0;
 }
 
-.hrat {
+.tlacitko2 {
   background-color: #0197f6;
   text-align: center;
   width: 600px;
   height: 70px;
   font-size: 30px;
+  font-family: sans-serif;
+  color: white;
   list-style-type: none;
-  display: block;
+  margin: 0;
+}
+
+.tlacitko1:hover {
+  background-color: #1cbb96;
 }
