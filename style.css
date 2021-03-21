@@ -1,0 +1,52 @@
+/*image size - 600 horizontal x 486 vertical*/
+
+body {
+  background-image: linear-gradient(to bottom, #615dad, #ffc8da);
+  background-repeat: no-repeat;
+  padding-right: 260px;
+  padding-left: 260px;
+  padding-top: 130px;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'lobster', sans-serif;
+  font-size: 50px;
+  width: 600px;
+  background-color: #283e50;
+}
+
+p {
+  font-family: 'lobster', sans-serif;
+  font-size: 25px;
+  width: 600px;
+  background-color: #283e50;
+  display: block;
+}
+
+.obrazek {
+  border-radius: 20px;
+  height: 486px;
+  width: 600px;
+  display: block;
+}
+
+.pravidla {
+  background-color: #1fcca4;
+  text-align: center;
+  width: 600px;
+  height: 70px;
+  font-size: 30px;
+  list-style-type: none;
+  display: block;
+}
+
+.hrat {
+  background-color: #0197f6;
+  text-align: center;
+  width: 600px;
+  height: 70px;
+  font-size: 30px;
+  list-style-type: none;
+  display: block;
+}
