@@ -38,7 +38,7 @@ img {
   height: 486px;
   width: 600px;
   margin: 0;
-  /*display: block;*/
+  display: block;
 }
 
 .tlacitko1 {
@@ -49,7 +49,6 @@ img {
   font-size: 30px;
   font-family: sans-serif;
   color: white;
-  list-style-type: none;
   display: block;
   margin: 0;
 }
@@ -62,10 +61,14 @@ img {
   font-size: 30px;
   font-family: sans-serif;
   color: white;
-  list-style-type: none;
+  display: block;
   margin: 0;
 }
 
-.tlacitko1:hover {
-  background-color: #1cbb96;
+.tlacitko1 a:hover {
+  color: #1cbb96;
+}
+
+.tlacitko2 a:hover {
+  color: #0090e9;
 }
