@@ -1,42 +1,38 @@
-/*image size - 600 horizontal x 486 vertical*/
-
 body {
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
-  background-repeat: no-repeat;
   padding-right: 260px;
   padding-left: 260px;
   padding-top: 130px;
-  background-size: cover;
+  padding-bottom: 130px;
 }
 
 h1 {
   font-family: 'lobster', sans-serif;
-  font-size: 50px;
+  font-size: 70px;
   color: white;
   width: 600px;
   height: 150px;
   background-color: #283e50;
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
 p {
-  font-family: sans-serif;
+  font-family: 'arial', sans-serif;
   font-size: 25px;
   color: white;
   width: 600px;
-  height: 200px;
+  height: 250px;
   background-color: #283e50;
   text-align: center;
-  display: block;
   margin: 0;
 }
 
 img {
   border-radius: 20px 20px 0px 0px;
   border: 0px solid black;
-  height: 486px;
   width: 600px;
+  height: 400px;
   margin: 0;
   display: block;
 }
@@ -47,10 +43,11 @@ img {
   width: 600px;
   height: 70px;
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: 'arial', sans-serif;
   color: white;
   display: block;
-  margin: 0;
+  border-bottom: 1px #283e50 solid;
+  padding-top: 30px;
 }
 
 .tlacitko2 {
@@ -59,16 +56,16 @@ img {
   width: 600px;
   height: 70px;
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: 'arial', sans-serif;
   color: white;
   display: block;
-  margin: 0;
+  padding-top: 30px;
 }
 
-.tlacitko1 a:hover {
-  color: #1cbb96;
+.tlacitko1:hover {
+  background-color: #1cbb96;
 }
 
-.tlacitko2 a:hover {
-  color: #0090e9;
+.tlacitko2:hover {
+  background-color: #0090e9;
 }
