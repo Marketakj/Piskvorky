@@ -76,3 +76,14 @@ img {
 .tlacitko2:hover {
   background-color: #0090e9;
 }
+
+.pravidla {
+  text-align: center;
+  background-color: #283e50;
+  display: flex;
+}
+
+.priklady-hry {
+  display: flex;
+  flex-direction: row;
+}
