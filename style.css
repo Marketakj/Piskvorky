@@ -1,9 +1,16 @@
-body {
+/*body {
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
   padding-right: 260px;
   padding-left: 260px;
   padding-top: 130px;
   padding-bottom: 130px;
+}*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #615dad, #ffc8da);
+  align-items: center;
 }
 
 h1 {
