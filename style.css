@@ -98,9 +98,7 @@ img {
   flex-wrap: wrap;
   line-height: 1.5;
   margin: 1em;
-  /*display: block;*/
   width: 1000px;
-  /*height: 70px;*/
 }
 
 .kontejner-obrazky {
@@ -117,14 +115,10 @@ img {
 }
 
 .pravidla-obr {
-  width: 50%;
+  /*width: 50%;*/
   border-radius: 0px 0px 0px 0px;
   justify-content: space-evenly;
 }
-
-/*figure {
-  max-width: 50%;
-}*/
 
 figcaption {
   font-style: italic;
@@ -141,18 +135,23 @@ figcaption {
   background-color: #0090e9;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 520px) {
   .kontejner-obrazky {
     width: 500px;
   }
-  .instructions {
+  .pravidla-obr {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*justify-content: space-evenly;*/
   }
-  figure {
-    max-width: 45%;
-    margin: 0 0 20px 0;
+
+  .seznam {
+    width: 500px;
   }
-}*/
+}
+
+.hra {
+  display: flex;
+  align-items: left;
+  flex-direction: row;
+}
