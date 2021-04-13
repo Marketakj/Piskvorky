@@ -153,27 +153,64 @@ figcaption {
 .container-hra {
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
   max-width: 80vmin;
+  background-repeat: no-repeat;
+}
+
+.nadpis-hra {
+  font-family: 'lobster', sans-serif;
+  font-size: 70px;
+  color: white;
+  /*width: 600px;
+  height: 150px;*/
+  margin: 0;
+  text-align: center;
 }
 
 .container-ikonky {
   display: flex;
-  align-items: right;
+  justify-content: flex-end;
   flex-direction: row;
   padding: 50px;
+}
+
+.hraje {
+  font-family: 'arial', sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.circle {
+  color: white;
+  margin: 10px;
+  width: 1em;
+  height: 1em;
+  filter: invert(100%);
+}
+
+.ikonka-domu {
+  height: 50px;
+  width: 50px;
+  position: right;
+  background-color: #1fcca4;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .ikonka-hra {
   height: 50px;
   width: 50px;
   position: right;
+  background-color: #0197f6;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .container-buttons {
   display: flex;
-  align-items: center;
+  justify-content: center;
   flex-direction: flex-start;
   flex-wrap: wrap;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .button-hra {
