@@ -6,7 +6,9 @@
   padding-bottom: 130px;
 }*/
 
-* {
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
 
@@ -18,7 +20,7 @@
   width: 600px;
 }
 
-h1 {
+.nadpis-piskvorky {
   font-family: 'lobster', sans-serif;
   font-size: 70px;
   color: white;
@@ -29,7 +31,7 @@ h1 {
   text-align: center;
 }
 
-p {
+.popis-hry {
   font-family: 'arial', sans-serif;
   font-size: 25px;
   color: white;
@@ -87,6 +89,17 @@ img {
   display: flex;
   flex-direction: column;
   width: 1000px;
+}
+
+.nadpis-pravidla {
+  font-family: 'lobster', sans-serif;
+  font-size: 70px;
+  color: white;
+  width: 600px;
+  height: 150px;
+  background-color: #283e50;
+  margin: 0;
+  text-align: center;
 }
 
 .seznam {
@@ -160,25 +173,25 @@ figcaption {
   font-family: 'lobster', sans-serif;
   font-size: 70px;
   color: white;
-  /*width: 600px;
-  height: 150px;*/
+  padding: 50px;
   margin: 0;
   text-align: center;
 }
 
 .container-ikonky {
   display: flex;
-  justify-content: flex-end;
+  /*align-content: right;*/
+  /*justify-content: space-evenly;*/
   flex-direction: row;
-  padding: 50px;
+  /*padding: 50px;*/
 }
 
 .hraje {
   font-family: 'arial', sans-serif;
   font-size: 25px;
   color: white;
-  text-align: center;
-  margin: 0;
+  text-align: left;
+  padding: 10px;
 }
 
 .circle {
@@ -210,7 +223,7 @@ figcaption {
   justify-content: center;
   flex-direction: flex-start;
   flex-wrap: wrap;
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 .button-hra {
