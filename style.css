@@ -150,8 +150,20 @@ figcaption {
   }
 }
 
-.hra {
+.container-hra {
+  background-image: linear-gradient(to bottom, #615dad, #ffc8da);
+  max-width: 80vmin;
+}
+
+.container-buttons {
   display: flex;
-  align-items: left;
+  align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
+  opacity: 0.5;
+}
+
+.button-hra {
+  height: 45px;
+  width: 45px;
 }
