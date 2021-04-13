@@ -155,15 +155,28 @@ figcaption {
   max-width: 80vmin;
 }
 
+.container-ikonky {
+  display: flex;
+  align-items: right;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.ikonka-hra {
+  height: 50px;
+  width: 50px;
+  position: right;
+}
+
 .container-buttons {
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: flex-start;
   flex-wrap: wrap;
   opacity: 0.5;
 }
 
 .button-hra {
-  height: 45px;
-  width: 45px;
+  height: 60px;
+  width: 60px;
 }
