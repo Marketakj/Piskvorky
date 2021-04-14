@@ -167,6 +167,7 @@ figcaption {
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
   max-width: 80vmin;
   background-repeat: no-repeat;
+  justify-content: center;
 }
 
 .nadpis-hra {
@@ -196,9 +197,9 @@ figcaption {
 
 .circle {
   color: white;
-  margin: 10px;
-  width: 1em;
-  height: 1em;
+  margin: 30px;
+  width: 1.5em;
+  height: 1.5em;
   filter: invert(100%);
 }
 
@@ -227,6 +228,11 @@ figcaption {
 }
 
 .button-hra {
-  height: 60px;
-  width: 60px;
+  /*height: 60px;
+  width: 60px;*/
+  width: calc(80vmin / 10);
+  height: calc(80vmin / 10);
+  margin: 0;
+  padding: 0;
+  border: 0.5px solid black;
 }
