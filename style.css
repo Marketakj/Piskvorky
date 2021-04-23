@@ -181,10 +181,19 @@ figcaption {
 
 .container-ikonky {
   display: flex;
-  /*align-content: right;*/
-  /*justify-content: space-evenly;*/
   flex-direction: row;
-  /*padding: 50px;*/
+  justify-content: right;
+}
+
+.container-hraje {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.ikonky {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .hraje {
@@ -197,7 +206,7 @@ figcaption {
 
 .circle {
   color: white;
-  margin: 30px;
+  margin: 20px;
   width: 1.5em;
   height: 1.5em;
   filter: invert(100%);
@@ -219,6 +228,14 @@ figcaption {
   border-radius: 10px 10px 10px 10px;
 }
 
+a.ikonka-domu:hover {
+  background-color: #1cbb96;
+}
+
+a.ikonka-hra:hover {
+  background-color: #0090e9;
+}
+
 .container-buttons {
   display: flex;
   justify-content: center;
@@ -228,11 +245,15 @@ figcaption {
 }
 
 .button-hra {
-  /*height: 60px;
-  width: 60px;*/
   width: calc(80vmin / 10);
   height: calc(80vmin / 10);
   margin: 0;
   padding: 0;
   border: 0.5px solid black;
+}
+
+.button-hra:hover,
+.button-hra:focus {
+  color: white;
+  opacity: 0.5;
 }
