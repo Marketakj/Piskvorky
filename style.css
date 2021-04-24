@@ -258,14 +258,14 @@ a.ikonka-hra:hover {
   opacity: 0.5;
 }
 
-.boardfield {
+.boardfield__circle {
   background-image: url('circle.svg');
   background-size: 2rem;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.boardfieldCross {
+.boardfield__cross {
   background-image: url('cross.svg');
   background-size: 2rem;
   background-position: center;
