@@ -2,30 +2,23 @@
 
 console.log('funguje');
 
-/*const circlePlays = ;
+/*const circle = document.querySelectorAll('.button-hra');
 
-/*let activePlayer = 'circle',*/
+circle.addEventListener('click', () => {
+  circle.classList.add('boardfield');
+});*/
 
-/*
-/*console.log(pokus);*/
+const cross = document.querySelector('.button-hra');
+const circle = document.querySelector('.button-hra');
 
-/*pokus.addEventListener = (event) => {
-  'click', (pokus.img.src = 'circle.svg');
-  btn.classList.add('board__field--circle');
-};*/
+let naTahu = circle; 
 
-const pokus = document.querySelectorAll('.button-hra');
-
-pokus.addEventListener =
-  ('click',
-  () => {
-    pokus.classlist.add('board-field');
+if (jeNaTahu === 'circle') {
+  circle.addEventListener('click', () => {
+  circle.classList.add('boardfield');
+  jeNaTahu === 'cross'
+  } else {
+  cross.addEventListener('click', () => {
+    cross.classList.add('boardfield');
+    jeNaTahu === 'circle';
   });
-
-console.log(pokus.addEventListener);
-
-/*console.log(addEventListener);*/
-
-/*document.querySelector('.button-hra').src = 'circle.svg';*/
-
-/*if (activePlayer === circle;)*/
