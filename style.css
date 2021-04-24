@@ -257,3 +257,14 @@ a.ikonka-hra:hover {
   color: white;
   opacity: 0.5;
 }
+
+.board-field {
+  background-image: url('circle.svg');
+  background-size: 2rem;
+  background-color: red;
+  /*background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  animation-name: gradual-growth;
+  animation-duration: 0.15s;*/
+}
