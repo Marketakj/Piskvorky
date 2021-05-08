@@ -1,23 +1,5 @@
 'use strict';
 
-/*const cross = document.querySelector('.button-hra');
-const circle = document.querySelector('.button-hra');
-
-let naTahu = cross;
-
-if (naTahu === 'cross') {
-  circle.addEventListener('click', () => {
-    circle.classList.add('boardfield__cross');
-    naTahu === 'circle';
-  });
-} else {
-  cross.addEventListener('click', () => {
-    cross.classList.add('boardfield__circle');
-    naTahu === 'cross';
-    /*document.querySelector('.hraje').src = 'circle.svg';
-  });
-}*/
-
 let naTahu = 'circle';
 document.querySelectorAll('.button-hra').forEach((btn) => {
   btn.addEventListener('click', () => {
@@ -33,12 +15,7 @@ document.querySelectorAll('.button-hra').forEach((btn) => {
   });
 });
 
-if (isWinningMove(event.target) === true) {
-  if (confirm(`Vyhrál: ${getSymbol(event.target)}. Spustit novou hru?`)) {
-    location.reload();
-  }
-}
-
+/*Určení výherce hry*/
 const getSymbol = (field) => {
   if (field.classList.contains('boardfield__cross')) {
     return 'cross';
@@ -47,14 +24,10 @@ const getSymbol = (field) => {
   }
 };
 
-console.log(getSymbol);
-
 const boardSize = 10; // 10x10
 
 const fields = document.querySelectorAll('.button-hra');
-console.log(fields);
 const getField = (row, column) => fields[row * boardSize + column];
-console.log(getField);
 
 const getPosition = (field) => {
   let fieldIndex = 0;
@@ -67,8 +40,6 @@ const getPosition = (field) => {
     column: fieldIndex % boardSize,
   };
 };
-
-console.log(getPosition);
 
 const symbolsToWin = 5;
 const isWinningMove = (field) => {
@@ -124,8 +95,6 @@ const isWinningMove = (field) => {
   return false;
 };
 
-if (isWinningMove(event.target) === true) {
-  if (confirm(`Vyhrál: ${getSymbol(event.target)}. Spustit novou hru?`)) {
-    location.reload();
-  }
+if (isWinningMove === true) {
+  `.alert (Vyhrál:${getSymbol})`;
 }
